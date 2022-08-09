@@ -1,4 +1,4 @@
-package arrays.oneDimArr;
+package oneDimArr;
 
 import java.util.Random;
 

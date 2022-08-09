@@ -1,4 +1,4 @@
-package arrays.oneDimArr;
+package oneDimArr;
 
 // Даны действительные числа. Поменять местами наибольший и наименьший элементы
 public class Task4 {

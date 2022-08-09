@@ -1,4 +1,4 @@
-package arrays.oneDimArr;
+package oneDimArr;
 
 // Даны действительные числа a1, a2,...,a2N.
 // Найти max(a1+a2N, a2+a2(N-1),..., aN+a(N+1)

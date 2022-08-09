@@ -1,4 +1,4 @@
-package arrays.oneDimArr;
+package oneDimArr;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,6 @@ public class Task8 {
                 countMin += 1;
             }
         }
-        System.out.println(min);
         final int SIZEOFNEW = SIZE-countMin;
         int[] newArray = new int[SIZEOFNEW];
         int cnt = 0;
