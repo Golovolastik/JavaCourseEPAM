@@ -7,7 +7,7 @@ public class MultiDimArr {
         Random random = new Random();
         for (int i=0; i<rowNumber; i++){
             for (int j=0; j<columnNumber; j++){
-                arr[i][j] = random.nextInt(1, 20);
+                arr[i][j] = random.nextInt(-10, 10);
             }
         }
     }
