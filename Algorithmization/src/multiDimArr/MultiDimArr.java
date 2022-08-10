@@ -20,4 +20,13 @@ public class MultiDimArr {
             System.out.println();
         }
     }
+
+    static void printTwoDDouble(double[][] arr, int rowNumber, int columnNumber){
+        for (int i=0; i<rowNumber; i++){
+            for (int j=0; j<columnNumber; j++){
+                System.out.printf("%7.3f ", arr[i][j]);
+            }
+            System.out.println();
+        }
+    }
 }
