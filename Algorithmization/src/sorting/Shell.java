@@ -20,6 +20,20 @@ public class Shell {
         }
         System.out.println(cnt);
     }
+
+    static void intervalSort(int[] arr){
+        int N = arr.length;
+        for (int interval=N/2; interval>0; interval/=2){
+            for (int i=interval; i<N; i++){
+                int temp = arr[i];
+                int j;
+                for (j=i; j>=interval && arr[j-interval]>temp; j-=interval){
+                    arr[j] = arr[j-interval];
+                }
+                arr[j] = temp;
+            }
+        }
+    }
     public static void main(String[] args) {
         int seed = 4;
         Random random = new Random();
@@ -28,7 +42,7 @@ public class Shell {
             array[i] = random.nextInt(1, 20);
         }
         OneDimArr.printInt(array);
-        sort(array);
+        intervalSort(array);
         OneDimArr.printInt(array);
     }
 }
