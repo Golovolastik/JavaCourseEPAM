@@ -49,7 +49,6 @@ public class Factors {
     }
 
     public static void main(String[] args){
-
         int result = LCM(8, 10);
         System.out.println(result);
     }
