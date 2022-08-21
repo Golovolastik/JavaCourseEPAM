@@ -12,11 +12,12 @@ public class Task7 {
     }
 
     public static int[] oddFactorials(int n){
-        int[] array = new int[n/2];
+        int[] array = new int[n/2 + 1];
         int count=0;
         for (int i=1; i<=n; i+=2){
             array[count] = factorial(i);
             System.out.printf("Factorial of %d is %d\n", i, array[count]);
+            count++;
         }
 
         return array;
