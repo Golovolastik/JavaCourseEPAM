@@ -33,7 +33,6 @@ public class Task10 {
         return newArray;
     }
     public static void main(String[] args){
-        //int[] array = ;
         int x = 1234567834;
         int[] result = initArray(x);
         OneDimArr.printInt(result);
