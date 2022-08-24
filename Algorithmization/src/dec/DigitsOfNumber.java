@@ -5,7 +5,7 @@ import oneDimArr.OneDimArr;
 // Дано натуральное число N.
 // Написать методы для формирования массива,
 // элементами которого являются цифры числа N.
-public class Task10 {
+public class DigitsOfNumber {
     static int[] initArray(int number){
         int[] array = new int[10];
         int digit;
