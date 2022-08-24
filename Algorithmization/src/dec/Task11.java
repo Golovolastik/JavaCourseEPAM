@@ -6,11 +6,11 @@ public class Task11 {
         String a = Integer.toString(x);
         String b = Integer.toString(y);
         if (a.length() > b.length()){
-            System.out.printf("%d is greater than %d", x, y);
+            System.out.printf("%d has more digits than %d", x, y);
         } else if (a.length() < b.length()) {
-            System.out.printf("%d is greater than %d", y, x);
+            System.out.printf("%d has more digits than %d", y, x);
         } else {
-            System.out.printf("%d and %d are equal", x, y);
+            System.out.printf("The number of digits in %d and %d is equal", x, y);
         }
     }
     public static void main(String[] args){
