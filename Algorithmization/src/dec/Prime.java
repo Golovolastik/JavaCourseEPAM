@@ -16,7 +16,7 @@ public class Prime {
             array[i-2] = i;
         }
     }
-    public static int[] findPrimesInArray(int[] array){
+    static int[] findPrimesInArray(int[] array){
         int count = 0;
         for (int i=0; i<array.length; i++){
             if (array[i] !=0){
